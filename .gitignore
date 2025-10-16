@@ -1,0 +1,59 @@
+# ===========================
+# Wellie-AI Project .gitignore
+# ===========================
+
+# --- ENV FILES (Never push secrets) ---
+.env
+*.env
+**/.env
+.env.example
+
+# --- PYTHON BUILD FILES ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+
+# --- VIRTUAL ENVIRONMENTS ---
+venv/
+wellienv/
+.venv/
+ENV/
+env/
+env.bak/
+pip-wheel-metadata/
+
+# --- EDITOR JUNK ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# --- OS CACHES ---
+*.log
+*.tmp
+*.bak
+*.orig
+*.pid
+*.seed
+.cache/
+logs/
+tmp/
+
+# --- RENDER + STREAMLIT ---
+.streamlit/
+__pycache__/
+*.db
+
+# --- TEST / BACKUP FILES ---
+*.test
+*.backup
+*~
+*.old
